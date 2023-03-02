@@ -7,9 +7,8 @@
         "funlog": "bin/log.js"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com",
-        "access": "public"
-    },
+        "registry": "https://npm.pkg.github.com"
+      },
     "scripts": {
         "test": "mocha",
         "cov": "npx nyc --reporter=html --reporter=text --report-dir docs mocha"
