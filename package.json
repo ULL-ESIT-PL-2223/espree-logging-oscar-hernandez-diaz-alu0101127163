@@ -7,7 +7,6 @@
         "funlog": "bin/log.js"
     },
     "scripts": {
-        "fill": "your scripts here",
         "test": "mocha test/test.mjs",
         "cov": "npx nyc --reporter=html --reporter=text --report-dir docs mocha"
     },
