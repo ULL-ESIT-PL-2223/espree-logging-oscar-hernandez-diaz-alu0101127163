@@ -7,7 +7,7 @@
         "funlog": "bin/log.js"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com",
+        "registry": "registry.npmjs.org",
         "access": "public"
     },
     "scripts": {
