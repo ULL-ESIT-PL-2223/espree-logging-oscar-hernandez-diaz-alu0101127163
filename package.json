@@ -7,7 +7,7 @@
         "funlog": "bin/log.js"
     },
     "scripts": {
-        "test": "mocha test/test.mjs",
+        "test": "mocha",
         "cov": "npx nyc --reporter=html --reporter=text --report-dir docs mocha"
     },
     "dependencies": {
@@ -20,6 +20,8 @@
     },
     "version": "0.3.0",
     "devDependencies": {
+        "jsdoc": "^4.0.2",
+        "jsdoc-to-markdown": "^8.0.0",
         "mocha": "^10.2.0"
     }
 }

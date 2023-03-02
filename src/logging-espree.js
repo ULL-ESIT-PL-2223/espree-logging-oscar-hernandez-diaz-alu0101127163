@@ -6,7 +6,7 @@ import * as esprima from "esprima";
 
 
 /**
- * Read the file with the js program, calls addLogin to add the login messages and writes the output
+ * @desc Read the file with the js program, calls addLogin to add the login messages and writes the output
  * @param {string} input_file - The name of the input file
  * @param {string} output_file - The name of the output file
  */
@@ -48,7 +48,7 @@ export function addLogging(code) {
 
 /**
  * AST transformation
- * @param {AST function type node} node 
+ * @param {AST} node 
  */
 export function addBeforeCode(node) {
   const name = node.id ? node.id.name : '<anonymous function>';
