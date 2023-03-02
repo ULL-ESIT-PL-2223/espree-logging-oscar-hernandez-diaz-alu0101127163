@@ -6,10 +6,6 @@
     "bin": {
         "funlog": "bin/log.js"
     },
-    "publishConfig": {
-        "registry": "registry.npmjs.org",
-        "access": "public"
-    },
     "scripts": {
         "test": "mocha",
         "cov": "npx nyc --reporter=html --reporter=text --report-dir docs mocha"
