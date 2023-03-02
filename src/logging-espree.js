@@ -54,21 +54,6 @@ export function addBeforeCode(node) {
   const name = node.id ? node.id.name : '<anonymous function>';
   const parameters = node.params.map(param => `\$\{${param.name}\}`);
   const beforeCode = `console.log(\`Entering ${name}(${parameters}) at line ${node.loc.start.line}\`);`;
-  const newbeforeCode = spacesAfterComas(beforeCode);
-  const beforeNodes = espree.parse(newbeforeCode, { ecmaVersion: 6 }).body;
+  const beforeNodes = espree.parse(beforeCode, { ecmaVersion: 6 }).body;
   node.body.body = beforeNodes.concat(node.body.body);
-}
-
-export function spacesAfterComas (text)
-{
-  let newBeforeCode = "";
-  for (let i = 0; i < text.length; i++) {
-      if (text[i] == ',') {
-          newBeforeCode += ', ';
-      }
-      else {
-          newBeforeCode += text[i];
-      }
-  }
-  return newBeforeCode;
 }
