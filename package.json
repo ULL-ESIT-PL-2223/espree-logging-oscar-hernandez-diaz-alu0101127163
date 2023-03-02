@@ -18,7 +18,7 @@
         "estraverse": "^5.2.0",
         "underscore": "^1.12.0"
     },
-    "version": "1.3.5",
+    "version": "1.3.6",
     "devDependencies": {
         "@alu0101127163/espree-logging-solution": "^1.3.5",
         "jsdoc": "^4.0.2",
