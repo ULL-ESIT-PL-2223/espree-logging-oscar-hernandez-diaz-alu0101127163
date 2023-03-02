@@ -1,13 +1,15 @@
 {
     "name": "espree-logging-solution",
-    "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+    "author": "ÓScar Hernández Díaz <alu0101127163@ull.edu.es> (https://crguezl.github.io/)",
     "description": "Adds logs to javascript code",
     "type": "module",
     "bin": {
         "funlog": "bin/log.js"
     },
     "scripts": {
-        "fill": "your scripts here"
+        "fill": "your scripts here",
+        "test": "mocha test/test.mjs",
+        "cov": "npx nyc --reporter=html --reporter=text --report-dir docs mocha"
     },
     "dependencies": {
         "acorn": "^8.8.2",
