@@ -1,5 +1,5 @@
 {
-    "name": "espree-logging-solution",
+    "name": "@alu0101127163/espree-logging-solution",
     "author": "ÓScar Hernández Díaz <alu0101127163@ull.edu.es> (https://crguezl.github.io/)",
     "description": "Adds logs to javascript code",
     "type": "module",
@@ -18,7 +18,7 @@
         "estraverse": "^5.2.0",
         "underscore": "^1.12.0"
     },
-    "version": "0.3.0",
+    "version": "1.1.0",
     "devDependencies": {
         "jsdoc": "^4.0.2",
         "jsdoc-to-markdown": "^8.0.0",

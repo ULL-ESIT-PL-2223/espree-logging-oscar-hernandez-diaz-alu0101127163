@@ -1,8 +1,3 @@
----
-descripcion: https://ull-esit-gradoii-pl.github.io/practicas/esprima-logging
-alumno: "Óscar Hernández Díaz alu0101127163"
----
-
 # [Práctica Espree Logging](https://ull-esit-gradoii-pl.github.io/practicas/esprima-logging)
 
 ### Procesadores de lenguajes 2021-2022
