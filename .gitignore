@@ -6,3 +6,4 @@ escodegen/
 output.js
 .DS_Store
 .nyc_output/
+  
