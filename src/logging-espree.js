@@ -11,7 +11,6 @@ import * as esprima from "esprima";
  * @param {string} output_file - The name of the output file
  */
 export async function transpile(input_file, output_file) {
-
   try {
      let program = await fs.readFile(input_file, 'utf8');
      let output = addLogging(program);

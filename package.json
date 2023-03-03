@@ -8,7 +8,7 @@
     },
     "scripts": {
         "test": "mocha",
-        "cov": "npx nyc --reporter=html --reporter=text --report-dir docs mocha"
+        "cov": "c8 --reporter=html --reporter=text --report-dir docs mocha"
     },
     "dependencies": {
         "acorn": "^8.8.2",
